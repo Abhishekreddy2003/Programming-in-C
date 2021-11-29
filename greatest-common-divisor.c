@@ -5,20 +5,10 @@ int main(){
     scanf("%d",&n);
     printf("Enter number n2 --> ");
     scanf("%d",&n1);
-    if (n>n1){
-        for (b=n/2;b>=1;b--){
-            if (n%b==0 && n1%b==0){
-                printf("%d",b);
-                break;
-            }
-        }
-    }
-    else{
-        for (b=n/2;b>=1;b--){
-            if (n%b==0 && n1%b==0){
-                printf("%d",b);
-                break;
-            }
+    for (b=n/2;b>=1;b--){
+        if (n%b==0 && n1%b==0){
+            printf("%d is the Greatest Common Factor.",b);
+            break;
         }
     }
 }
