@@ -11,7 +11,7 @@ int fibo(int r){
 	}
 }
 int main(){
-	int a,b; printf("Enter the number of ouputs you want : "); scanf("%d",&b);
+	int a,b; printf("Enter the number of outputs you want : "); scanf("%d",&b);
 	for (a=0;a<=b;a++){
 		printf("%d ",fibo(a));
 	}
